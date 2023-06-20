@@ -211,7 +211,8 @@ else {
 Write-Verbose "Prompt = '$Prompt'"
 Write-Verbose "VenvDir='$VenvDir'"
 
-
+# Deactivate any currently active virtual environment, but leave the
+# deactivate function in place.
 deactivate -nondestructive
 
 # Now set the environment variable VIRTUAL_ENV, used by many tools to determine
