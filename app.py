@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error
 
-# Set Plotly template to white background
+
 import plotly.io as pio
 pio.templates.default = "plotly_white"
 
@@ -16,7 +16,7 @@ data = pd.read_csv('retail_price.csv')
 # Streamlit app
 st.title('Retail Price Analysis App')
 
-# Sidebar
+
 st.sidebar.header('Visualization Options')
 chart_options = ['Histogram', 'Box Plot', 'Scatter Plot', 'Bar Chart', 'Correlation Heatmap', 'Bar Chart - Price Difference']
 selected_chart = st.sidebar.selectbox('Select a visualization:', chart_options)
