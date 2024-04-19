@@ -190,7 +190,8 @@ else {
 # as `prompt`.
 $pyvenvCfg = Get-PyVenvConfig -ConfigDir $VenvDir
 
-
+# Next, set the prompt from the command line, or the config file, or
+# just use the name of the virtual environment folder.
 if ($Prompt) {
     Write-Verbose "Prompt specified as argument, using '$Prompt'"
 }
