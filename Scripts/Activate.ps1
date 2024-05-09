@@ -211,12 +211,10 @@ else {
 Write-Verbose "Prompt = '$Prompt'"
 Write-Verbose "VenvDir='$VenvDir'"
 
-# Deactivate any currently active virtual environment, but leave the
-# deactivate function in place.
+
 deactivate -nondestructive
 
-# Now set the environment variable VIRTUAL_ENV, used by many tools to determine
-# that there is an activated venv.
+
 $env:VIRTUAL_ENV = $VenvDir
 
 if (-not $Env:VIRTUAL_ENV_DISABLE_PROMPT) {
