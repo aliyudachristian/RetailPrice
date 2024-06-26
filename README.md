@@ -39,11 +39,3 @@ Train and visualize the performance of a Decision Tree Regressor model.
 Contributing
 Contributions are welcome! Please feel free to fork this repository and submit pull requests.
 
-License
-This project is licensed under the MIT License.
-
-For more information on Streamlit, visit the ![Streamlit documentation](https://docs.streamlit.io/)
-
-For more information on Plotly, visit the ![Plotly documentation](https://plotly.com/graphing-libraries/) 
-
-For more information on Scikit-learn, visit the ![Scikit-learn documentation](https://scikit-learn.org/stable/user_guide.html)
